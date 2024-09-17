@@ -1,0 +1,35 @@
+{
+  "name": "desafio-in8",
+  "version": "1.0.0",
+  "description": "API RESTful para scraping de notebooks Lenovo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "keywords": [
+    "scraping",
+    "lenovo",
+    "notebooks",
+    "api"
+  ],
+  "author": "Pablo Martins",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
